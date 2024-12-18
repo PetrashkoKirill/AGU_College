@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Колледж АлтГУ</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__logo">
+        <img src="images/header_logo.svg" alt="Логотип" class="header__logo-image" />
+        <p class="header__logo-title">
+          Колледж Алтайского государственного университета
+        </p>
+      </div>
+      <nav class="header__nav">
+        <ul class="nav">
+          <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+          <li class="nav__item"><a href="catalogue.php" class="nav__link">Специальности</a></li>
+          <li class="nav__item">
+            <a href="contacts.html" class="nav__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-content">
+      <section class="main-content__section main-content__section--slider">
+        <div class="slider">
+          <div class="slides">
+            <img src="images/slider/00000435.jpg" alt="Image #1" class="slide" />
+            <img src="images/slider/00000476.png" alt="Image #2" class="slide" />
+          </div>
+          <button class="slider__button prev" onclick="prevSlide()">&#10094</button>
+          <button class="slider__button next" onclick="nextSlide()">&#10095</button>
+        </div>
+      </section>
+
+      <section class="main-content__section main-content__section--about">
+        <h1 class="main-content__title">Колледж Алтайского государственного университета</h1>
+        <p class="main-content__text">Колледж АлтГУ образован <span class="main-content__highlight">27 декабря 2011
+            года</span>. Цель деятельности Колледжа АлтГУ –
+          подготовка квалифицированных специалистов по программам среднего профессионального образования. Выпускники
+          получают диплом государственного образца о среднем профессиональном образовании, а также свидетельство
+          установленного образца по профессии рабочего, должности служащего и имеют право продолжить обучение по
+          соответствующей специальности (направлению) в АлтГУ по программам высшего образования</p>
+
+        <p class="main-content__text">Колледж Алтайского государственного университета является одним из лидеров
+          среднего профессионального
+          образования в Алтайском крае. Мы осуществляем подготовку молодых кадров по <span
+            class="main-content__highlight">13
+            образовательным программам</span>, в числе которых наиболее востребованные в России и мире.</p>
+
+        <p class="main-content__text">Наш штат – более <span class="main-content__highlight">200 высококвалифицированных
+            преподавателей</span> с большим опытом
+          работы как в педагогике, так и в своих отраслях. Мы преследуем идею возрождения престижа
+          средне-профессионального образования, а наша главная цель – воспитание кадров нового поколения, готовых к
+          конкуренции и вызовам современной рыночной экономики.</p>
+
+        <p class="main-content__text">Уже <span class="main-content__highlight">3000 студентов</span> выбрали нас как
+          стартовую точку своего профессионального
+          роста. Для их гармоничного развития мы применяем не только современные образовательные технологии, но и ведём
+          интенсивную воспитательную работу.</p>
+
+        <p class="main-content__text">В Колледже АлтГУ действуют десятки различных студенческих клубов и объединений,
+          которые дополнительно
+          развивают в наших студентах гуманистические, лидерские и предпринимательские качества.</p>
+
+        <p class="main-content__text">Выбирая нас, вы делаете выбор в пользу знаний, умений и мастерства!</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__info">
+        <p class="text">
+          <strong>Место нахождения:</strong> 656049, Алтайский край, город Барнаул, проспект Ленина, дом 61
+        </p>
+        <p class="text">
+          <strong>Режим и график работы:</strong> с 8:00 до 17:00; перерыв – с 12:00 до 12:48, выходные – суббота,
+          воскресенье
+        </p>
+        <p class="text">
+          <strong>Контактный телефон:</strong> (3852) 291-291
+        </p>
+        <p class="text">
+          <strong>Контактный факс:</strong> (3852) 667-626
+        </p>
+        <p class="text">
+          <strong>Адрес электронной почты:</strong> <a href="mailto:rector@asu.ru"
+            style="color: #333; text-decoration: none;">rector@asu.ru</a>
+        </p>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="js/slider.js"></script>
+
+</html>
