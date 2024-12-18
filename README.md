@@ -4,8 +4,8 @@
 ## Главная страница:
 ![Main page](screenshot/main_page.png "Main page")
 
-## Cтраница входа в аккаунт:
+## Cтраница специальностей:
 ![](screenshot/specialities_page.png)
 
-## Cтраница регистрации:
+## Cтраница контактов:
 ![](screenshot/contacts_page.png)
